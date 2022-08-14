@@ -1,0 +1,1911 @@
+[13-Aug-2020 06:13:13 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php on line 78
+[13-Aug-2020 06:13:13 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php on line 78
+[13-Aug-2020 06:13:14 UTC] PHP Fatal error:  DISEVAL - Use of eval is forbidden in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/View.php(434) : eval()'d code on line 1
+[13-Aug-2020 06:13:14 UTC] PHP Fatal error:  Uncaught yii\base\ErrorException: ini_set() has been disabled for security reasons in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php:123
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'ini_set() has b...', '/home/nrtin/pub...', 123, Array)
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(123): ini_set('display_errors', 1)
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(288): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#4 {main}
+  thrown in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php on line 123
+[13-Aug-2020 06:24:02 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTcgkHZOzCvqTbKnWB6TQAAAMk',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '1848',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTcgkHZOzCvqTbKnWB6TQAAAMk',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597299842.52221202850341796875,
+    'REQUEST_TIME' => 1597299842,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 06:24:08 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=I%20Gede%20Putu%20Dharma%20Yusa',
+    'REDIRECT_QUERY_STRING' => 'name=I%20Gede%20Putu%20Dharma%20Yusa',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTciDo2VytiZLKjupg45wAAAE0',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '55305',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=I%20Gede%20Putu%20Dharma%20Yusa',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTciDo2VytiZLKjupg45wAAAE0',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597299848.1238710880279541015625,
+    'REQUEST_TIME' => 1597299848,
+    'argv' => [
+        'name=I%20Gede%20Putu%20Dharma%20Yusa',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 06:24:31 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTcny68z2ZJmjlVLgwxyQAAAIs',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '12548',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTcny68z2ZJmjlVLgwxyQAAAIs',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597299871.6081941127777099609375,
+    'REQUEST_TIME' => 1597299871,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 06:27:16 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTdRNGMTQZzo@Pz3zMkPwAAABA',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '22276',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTdRNGMTQZzo@Pz3zMkPwAAABA',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597300036.33899593353271484375,
+    'REQUEST_TIME' => 1597300036,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 06:27:54 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTdag3mDP6T51zM0Xf60gAAARI',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '18962',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTdag3mDP6T51zM0Xf60gAAARI',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597300074.4928081035614013671875,
+    'REQUEST_TIME' => 1597300074,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 06:33:32 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 145. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 145. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTeuy68z2ZJmjlVLgwx4gAAAJY',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '36422',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTeuy68z2ZJmjlVLgwx4gAAAJY',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597300411.9476749897003173828125,
+    'REQUEST_TIME' => 1597300411,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 06:35:52 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 146. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 146. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTfSDo2VytiZLKjupg5AwAAAEA',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '65024',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTfSDo2VytiZLKjupg5AwAAAEA',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597300552.09597301483154296875,
+    'REQUEST_TIME' => 1597300552,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 06:36:17 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTfYS68z2ZJmjlVLgwx6gAAAII',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '18953',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTfYS68z2ZJmjlVLgwx6gAAAII',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597300577.2158010005950927734375,
+    'REQUEST_TIME' => 1597300577,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 06:36:44 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTffEHZOzCvqTbKnWB6ZQAAAME',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '49154',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTffEHZOzCvqTbKnWB6ZQAAAME',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597300604.838695049285888671875,
+    'REQUEST_TIME' => 1597300604,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 06:39:26 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTgHg3mDP6T51zM0Xf64gAAAQY',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '39619',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTgHg3mDP6T51zM0Xf64gAAAQY',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597300766.137362957000732421875,
+    'REQUEST_TIME' => 1597300766,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:10:06 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTnTjo2VytiZLKjupg5KwAAAE4',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '11976',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTnTjo2VytiZLKjupg5KwAAAE4',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597302606.86349201202392578125,
+    'REQUEST_TIME' => 1597302606,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:11:45 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTnsTo2VytiZLKjupg5MQAAAFA',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '56777',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTnsTo2VytiZLKjupg5MQAAAFA',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597302705.54578495025634765625,
+    'REQUEST_TIME' => 1597302705,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:12:57 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTn@To2VytiZLKjupg5NgAAAFE',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '37343',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTn@To2VytiZLKjupg5NgAAAFE',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597302777.12827396392822265625,
+    'REQUEST_TIME' => 1597302777,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:14:24 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzToUEHZOzCvqTbKnWB6kAAAAM8',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '52611',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzToUEHZOzCvqTbKnWB6kAAAAM8',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597302864.6763401031494140625,
+    'REQUEST_TIME' => 1597302864,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:29:50 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTr7jo2VytiZLKjupg5SgAAAEc',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '62151',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTr7jo2VytiZLKjupg5SgAAAEc',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597303790.3615190982818603515625,
+    'REQUEST_TIME' => 1597303790,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:30:37 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTsHdGMTQZzo@Pz3zMkjAAAAAg',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '23746',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTsHdGMTQZzo@Pz3zMkjAAAAAg',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597303837.889998912811279296875,
+    'REQUEST_TIME' => 1597303837,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:31:01 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTsNUHZOzCvqTbKnWB6pQAAAMc',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '22212',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTsNUHZOzCvqTbKnWB6pQAAAMc',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597303861.2447509765625,
+    'REQUEST_TIME' => 1597303861,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:32:09 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 148. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 148. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTseTo2VytiZLKjupg5UgAAAEs',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '35507',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTseTo2VytiZLKjupg5UgAAAEs',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597303929.2832028865814208984375,
+    'REQUEST_TIME' => 1597303929,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:32:51 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 148. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 148. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTsojo2VytiZLKjupg5VwAAAE0',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '23221',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTsojo2VytiZLKjupg5VwAAAE0',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597303971.009151935577392578125,
+    'REQUEST_TIME' => 1597303971,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:37:30 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTtukHZOzCvqTbKnWB6sAAAANA',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '39842',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTtukHZOzCvqTbKnWB6sAAAANA',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597304250.3194119930267333984375,
+    'REQUEST_TIME' => 1597304250,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:38:32 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTt@C68z2ZJmjlVLgwyLwAAAJI',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '40263',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTt@C68z2ZJmjlVLgwyLwAAAJI',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597304312.507472991943359375,
+    'REQUEST_TIME' => 1597304312,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:39:04 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/update?id=6',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTuGEHZOzCvqTbKnWB6tAAAANI',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '58185',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTuGEHZOzCvqTbKnWB6tAAAANI',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597304344.7492198944091796875,
+    'REQUEST_TIME' => 1597304344,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:39:25 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTuLDo2VytiZLKjupg5YwAAAFY',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '18758',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTuLDo2VytiZLKjupg5YwAAAFY',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597304364.949388980865478515625,
+    'REQUEST_TIME' => 1597304364,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:39:50 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTuRdGMTQZzo@Pz3zMkmwAAABQ',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '5446',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTuRdGMTQZzo@Pz3zMkmwAAABQ',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597304389.9367029666900634765625,
+    'REQUEST_TIME' => 1597304389,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:40:00 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=I%20Gede%20Putu%20Dharma%20Yusa',
+    'REDIRECT_QUERY_STRING' => 'name=I%20Gede%20Putu%20Dharma%20Yusa',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTuUDo2VytiZLKjupg5ZAAAAFc',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '5955',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=I%20Gede%20Putu%20Dharma%20Yusa',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTuUDo2VytiZLKjupg5ZAAAAFc',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597304400.5642950534820556640625,
+    'REQUEST_TIME' => 1597304400,
+    'argv' => [
+        'name=I%20Gede%20Putu%20Dharma%20Yusa',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:45:19 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTvjw3mDP6T51zM0Xf7LgAAAQE',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '54634',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTvjw3mDP6T51zM0Xf7LgAAAQE',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597304719.8906819820404052734375,
+    'REQUEST_TIME' => 1597304719,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:45:37 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTvoUHZOzCvqTbKnWB6vgAAAMA',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '3655',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTvoUHZOzCvqTbKnWB6vgAAAMA',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597304737.8039491176605224609375,
+    'REQUEST_TIME' => 1597304737,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:49:06 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 148. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 148. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_QUERY_STRING' => 'name=Lukman%20Eka%20Arifandhi',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTwcjo2VytiZLKjupg5cAAAAEY',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '42311',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=Lukman%20Eka%20Arifandhi',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTwcjo2VytiZLKjupg5cAAAAEY',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597304946.3032510280609130859375,
+    'REQUEST_TIME' => 1597304946,
+    'argv' => [
+        'name=Lukman%20Eka%20Arifandhi',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:49:29 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 148. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 148. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=I%20Gede%20Putu%20Dharma%20Yusa',
+    'REDIRECT_QUERY_STRING' => 'name=I%20Gede%20Putu%20Dharma%20Yusa',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTwiS68z2ZJmjlVLgwyPQAAAIQ',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '35913',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=I%20Gede%20Putu%20Dharma%20Yusa',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTwiS68z2ZJmjlVLgwyPQAAAIQ',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597304969.4061939716339111328125,
+    'REQUEST_TIME' => 1597304969,
+    'argv' => [
+        'name=I%20Gede%20Putu%20Dharma%20Yusa',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 07:50:59 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/nrtin/public_html/arsiparis/backend/controllers/LemburController.php on line 147. in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/nrtin/public_html/arsiparis/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'CONTEXT_DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'CONTEXT_PREFIX' => '',
+    'DOCUMENT_ROOT' => '/home/nrtin/public_html',
+    'GATEWAY_INTERFACE' => 'CGI/1.1',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'HTTP_COOKIE' => 'BIGipServeriapps_whfe04_443=3760455690.20480.0000; advanced-backend=c9a9e02a0db8d3a4c10d260f27321982; _csrf-backend=df8aa58af9f8bb0591a2edf12ead305b1beb418633534ac96b0b8c11248d672ba%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ZA0q2X07RxDNJvbgW9C2WuFiS1dol2Ih%22%3B%7D; _identity-backend=1b260069be73d952b762283ddc4eea78edbf4735d438d2ed00e9703e7f476f1aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22S7A7c4YaqjsgDwZVGnMrZ78ELBeq9P15%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'nrtin.bps.go.id',
+    'HTTP_REFERER' => 'https://nrtin.bps.go.id/arsiparis/backend/web/lembur/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0',
+    'HTTP_X_CLIENT' => 'WA',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'PATH' => '/bin:/usr/bin',
+    'QUERY_STRING' => 'name=I%20Gede%20Putu%20Dharma%20Yusa',
+    'REDIRECT_QUERY_STRING' => 'name=I%20Gede%20Putu%20Dharma%20Yusa',
+    'REDIRECT_SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'XzTw40HZOzCvqTbKnWB6xgAAAMY',
+    'REDIRECT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'REMOTE_ADDR' => '10.5.7.28',
+    'REMOTE_PORT' => '29256',
+    'REQUEST_METHOD' => 'GET',
+    'REQUEST_SCHEME' => 'http',
+    'REQUEST_URI' => '/arsiparis/backend/web/lembur/get-nip?name=I%20Gede%20Putu%20Dharma%20Yusa',
+    'SCRIPT_FILENAME' => '/home/nrtin/public_html/arsiparis/backend/web/index.php',
+    'SCRIPT_NAME' => '/arsiparis/backend/web/index.php',
+    'SCRIPT_URI' => 'http://nrtin.bps.go.id/arsiparis/backend/web/lembur/get-nip',
+    'SCRIPT_URL' => '/arsiparis/backend/web/lembur/get-nip',
+    'SERVER_ADDR' => '10.0.36.224',
+    'SERVER_ADMIN' => 'webmaster@nrtin.bps.go.id',
+    'SERVER_NAME' => 'nrtin.bps.go.id',
+    'SERVER_PORT' => '80',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'TZ' => 'Asia/Jakarta',
+    'UNIQUE_ID' => 'XzTw40HZOzCvqTbKnWB6xgAAAMY',
+    'PHP_SELF' => '/arsiparis/backend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1597305059.073092937469482421875,
+    'REQUEST_TIME' => 1597305059,
+    'argv' => [
+        'name=I%20Gede%20Putu%20Dharma%20Yusa',
+    ],
+    'argc' => 1,
+]
+[13-Aug-2020 08:18:38 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php on line 123
+[13-Aug-2020 08:18:38 UTC] PHP Warning:  rmdir() has been disabled for security reasons in /home/nrtin/public_html/arsiparis/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php on line 232
+[13-Aug-2020 08:18:38 UTC] PHP Warning:  rmdir() has been disabled for security reasons in /home/nrtin/public_html/arsiparis/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php on line 232
+[13-Aug-2020 08:56:27 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php on line 123
+[13-Aug-2020 08:56:27 UTC] PHP Warning:  rmdir() has been disabled for security reasons in /home/nrtin/public_html/arsiparis/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php on line 232
+[13-Aug-2020 08:56:27 UTC] PHP Warning:  rmdir() has been disabled for security reasons in /home/nrtin/public_html/arsiparis/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php on line 232
+[13-Aug-2020 09:01:20 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /home/nrtin/public_html/arsiparis/common/config/main-local.php on line 31
+[13-Aug-2020 09:01:25 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /home/nrtin/public_html/arsiparis/common/config/main-local.php on line 31
+[13-Aug-2020 09:01:34 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /home/nrtin/public_html/arsiparis/common/config/main-local.php on line 31
+[13-Aug-2020 09:02:48 UTC] PHP Warning:  ini_set() has been disabled for security reasons in /home/nrtin/public_html/arsiparis/vendor/yiisoft/yii2/web/ErrorHandler.php on line 123
